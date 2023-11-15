@@ -1,6 +1,7 @@
 import { BigCard, SmallCard } from "../components/CardComponent";
 import JumboTronComponent from "../components/JumbotronComponent";
 import NavbarComponent from "../components/NavbarComponent";
+import FooterComponent from "../components/FooterComponent";
 
 export default function HomePage() {
   const data = [
@@ -32,13 +33,18 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="bg-[#DDDDDD] min-h-screen">
+    <div className="bg-[#9BA4B5] min-h-screen">
       <NavbarComponent />
       <JumboTronComponent />
 
       <div className="grid grid-cols-3 gap-4 container mx-auto mt-10">
         {data.map((post, idx) => (idx == 0 ? <BigCard /> : <SmallCard />))}
       </div>
+      <br />
+      <br />
+      <br />
+      <br />  
+      <FooterComponent />
     </div>
   );
 }

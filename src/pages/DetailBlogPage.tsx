@@ -1,5 +1,11 @@
+import DetailBlogComponent from "../components/DetailBlogComponent";
+import NavbarComponent from "../components/NavbarComponent";
+
 export default function DetailBlogPage() {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum animi impedit sed voluptates reprehenderit. Voluptatem quasi adipisci dolore minima labore!</div>
+    <div className="bg-[#9BA4B5] min-h-screen">
+      <NavbarComponent />
+      <DetailBlogComponent />
+    </div>
   )
 }

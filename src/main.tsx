@@ -7,6 +7,7 @@ import "./dist/navbar.css";
 import "./dist/HomePage.css";
 import "./dist/JumbotronComponent.css";
 import "./dist/CardComponent.css";
+import "./dist/DetailBlogPage.css";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
