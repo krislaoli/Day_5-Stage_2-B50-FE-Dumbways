@@ -1,0 +1,106 @@
+import { Link } from "react-router-dom";
+
+export default function RegisterComp() {
+  return (
+    <>
+      <div className="bg-[#9BA4B5] h-screen flex justify-center items-center">
+        <div className="w-full sm:w-2/3 md:w-1/3 lg:w-1/5 h-auto bg-white rounded-2xl p-8 mx-auto my-8">
+          <h1 className="text-3xl font-bold mb-4 text-center text-slate-900" style={{ color: "rgba(94, 90, 0, 1)" }}>
+            REGISTER
+          </h1>
+          <form>
+            <div className="mb-4">
+              <label
+                htmlFor="fullName"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Full Name
+              </label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                className="w-full px-3 py-2 border-2 border-black rounded-md"
+                placeholder="Input Name"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="address"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Address
+              </label>
+              <input
+                type="text"
+                id="address"
+                name="address"
+                className="w-full px-3 py-2 border-2 border-black rounded-md"
+                placeholder="Input Address"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="gender"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Gender
+              </label>
+              <input
+                type="text"
+                id="gender"
+                name="gender"
+                className="w-full px-3 py-2 border-2 border-black rounded-md"
+                placeholder="Input Gender"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="username"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Username
+              </label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                className="w-full px-3 py-2 border-2 border-black rounded-md"
+                placeholder="Input Username"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="password"
+                className="block text-gray-700 text-sm font-bold mb-2"
+              >
+                Password
+              </label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                className="w-full px-3 py-2 border-2 border-black rounded-md"
+                placeholder="Input Password"
+              />
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-slate-700 text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900" style={{ background: "rgba(94, 90, 0, 1)" }}
+            >
+              SUBMIT
+            </button>
+          </form>
+          <div className="mt-4 text-right">
+          <p className="text-slate-800" style={{ fontStyle: "italic" }}>
+              Sudah memilik akun ?{" "}
+              <strong className="hover:underline">
+                <Link to="/loginpage">Login</Link>
+              </strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

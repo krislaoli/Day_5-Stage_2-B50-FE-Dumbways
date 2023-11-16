@@ -37,7 +37,7 @@ export function SmallCard() {
         MENTOR TERBAIK</Link>
         
       </h1>
-      <h1 className="text-black text-3xl font-semibold">Super Admin</h1>
+      <h1 className="text-black text-3xl">Super Admin</h1>
       </div>
     </div>
   );

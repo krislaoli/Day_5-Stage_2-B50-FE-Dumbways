@@ -75,6 +75,16 @@ export default function DetailBlogComponent() {
           </p>
         </div>
       </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </>
   );
 }
