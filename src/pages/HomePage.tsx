@@ -2,6 +2,7 @@ import { BigCard, SmallCard } from "../components/CardComponent";
 import JumboTronComponent from "../components/JumbotronComponent";
 import NavbarComponent from "../components/NavbarComponent";
 import FooterComponent from "../components/FooterComponent";
+import NotesComponent from "../components/NotesComponent";
 
 export default function HomePage() {
   const data = [
@@ -44,6 +45,7 @@ export default function HomePage() {
       <br />
       <br />
       <br />
+      <NotesComponent />
       <FooterComponent />
     </div>
   );
