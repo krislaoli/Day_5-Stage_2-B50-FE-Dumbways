@@ -7,7 +7,7 @@ type Login = {
 };
 
 const data: Login = {
-  isLogin: false,
+  isLogin: true,
   role: "user",
 };
 

@@ -1,4 +1,3 @@
-// import FooterComponent from "../FooterComponent";
 
 interface CardProps {
   image: string;
@@ -16,31 +15,31 @@ const Card: React.FC<CardProps> = ({ image, name, akumulasi, jumlahVotes }) => {
         className="w-full h-60 object-cover mb-4 rounded-md"
       />
 
-      <h2 className="text-lg font-semibold text-white">{name}</h2>
-      <p className="text-white">Akumulasi: {akumulasi}</p>
-      <p className="text-white">Jumlah Votes: {jumlahVotes}</p>
+      <h2 className=" text-3xl font-semibold text-black">{name}</h2>
+      <p className="text-black">Akumulasi: {akumulasi}</p>
+      <p className="text-black">Jumlah Votes: {jumlahVotes}</p>
     </div>
   );
 };
 
 export default function DashboardComponent() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 dashboard-responsive">
         <div>
-        <h1 className="font-bold text-4xl text-center text-slate-800">
+        <h1 className="font-bold text-5xl text-center text-black">
           DASHBOARD
         </h1>
       </div>
       <div>
         <div className="flex justify-center mt-10">
-          <div className="grid grid-cols-3 gap-8">
-            <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               1
             </div>
-            <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               2
             </div>
-            <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               3
             </div>
 

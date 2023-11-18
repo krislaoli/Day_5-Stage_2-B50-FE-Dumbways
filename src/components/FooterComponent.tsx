@@ -1,6 +1,6 @@
 export default function FooterComponent() {
   return (
-    <div>
+    <div className="footer-responsive">
       <footer className="bg-black w-full h-[291px] bottom-0">
         <div className="flex gap-[42px] items-center py-16 pl-72">
           <img src="/public/logo-kris.png" alt="logo" className="h-[110px]" />

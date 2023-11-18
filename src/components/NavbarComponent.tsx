@@ -1,4 +1,4 @@
-export default function App() {
+export default function NavbarComponent() {
   return (
     <div>
       <div className="icon-navbar ">
@@ -32,3 +32,4 @@ export default function App() {
     </div>
   );
 }
+
