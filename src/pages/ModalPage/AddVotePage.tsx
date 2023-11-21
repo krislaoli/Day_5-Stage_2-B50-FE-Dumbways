@@ -1,12 +1,12 @@
 // import FooterComponent from "../../components/FooterComponent";
+import AddVoteComp from "../../components/AddVoteComp/AddVoteComp";
 import NavbarComponent from "../../components/NavbarComponent";
-import ModalVoteComp from "../../components/VoteComp/ModalVoteComp";
 
 export default function AddVotePage() {
   return (
-    <div className="bg[#9BA4B5] ">
+    <div className="bg-[#9BA4B5] min-h-screen">
       <NavbarComponent />
-      <ModalVoteComp />
+      <AddVoteComp />
       {/* <FooterComponent /> */}
     </div>
   );

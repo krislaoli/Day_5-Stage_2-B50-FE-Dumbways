@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 interface CardProps {
   backgroundColor: string;
   image: string;
@@ -17,7 +16,7 @@ const Card: React.FC<CardProps> = ({
   title,
 }) => {
   return (
-    <div className={`${backgroundColor} p-4 rounded-md shadow-md w-96 h-100`}>
+    <div className={`${backgroundColor}  p-4 rounded-md shadow-md w-96 h-100`}>
       <img
         src={image}
         alt={name}
@@ -33,11 +32,12 @@ const Card: React.FC<CardProps> = ({
   );
 };
 
-export default function ModalVoteComp() {
+export default function AddVoteComp() {
   return (
-    <div className="mt-10 dashboard-responsive w-100 min-vh-100">
+    <div>
+    <div className=" mt-10 dashboard-responsive w-100 min-vh-100">
       <div>
-        <h1 className="font-bold text-4xl text-center text-slate-800">
+        <h1 className="font-bold text-4xl text-center text-black">
           MASUKAN PILIHANMU
         </h1>
       </div>
@@ -91,11 +91,12 @@ export default function ModalVoteComp() {
               className="w-full bg-slate-700 text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
               style={{ background: "rgba(94, 90, 0, 1)" }}
             >
-             <Link to="/votepage"> Submit</Link>
+              <Link to="/votepage"> Submit</Link>
             </button>
           </div>
         </div>
       </div>
     </div>
+    </div>
   );
-}          
+}

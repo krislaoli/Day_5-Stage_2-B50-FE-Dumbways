@@ -6,7 +6,11 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import DashboardPage from "./pages/DashboardPage";
 import VotePage from "./pages/ElectionInfoPage/VotePage";
-import ModalVotePage from "./pages/ModalPage/AddVotePage";
+import AddVotePage from "./pages/ModalPage/AddVotePage";
+import AddPaslonPage from "./pages/AddPaslon_PartaiPage/AddPaslonPage";
+import AddPartaiPage from "./pages/AddPaslon_PartaiPage/AddPartaiPage";
+import ListPaslonPage from "./pages/ListPaslon_PartaiPage/ListPaslonPage";
+import ListPartaiPage from "./pages/ListPaslon_PartaiPage/ListPartaiPage";
 
 export default function App() {
   return (
@@ -14,10 +18,14 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/registerpage" element={<RegisterPage />} />
-        <Route path="/addvotepage" element={<VotePage />} />
+        <Route path="/votepage" element={<VotePage />} />
         <Route path="/dashboardpage" element={<DashboardPage />} />
         <Route path="/detailblogpage" element={<DetailBlogPage />} />
-        <Route path="/modalvotepage" element={<ModalVotePage />} />
+        <Route path="/addvotepage" element={<AddVotePage />} />
+        <Route path="/addpaslonpage" element={<AddPaslonPage />} />
+        <Route path="/addpartaipage" element={<AddPartaiPage />} />
+        <Route path="listpaslonpage" element={<ListPaslonPage />} />
+        <Route path="/listpartaipage" element={<ListPartaiPage />} />
         
       // PrivateRoute Admin
       <Route element={<PrivateRouteAdmin />}>
