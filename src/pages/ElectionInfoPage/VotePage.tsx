@@ -2,12 +2,15 @@
 import NavbarComponent from "../../components/NavbarComponent";
 // // import FooterComponent from "../../components/FooterComponent";
 import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 
 import React from "react";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+
+
+
 
 const VotePage: React.FC = () => {
   ChartJS.register(ArcElement, Tooltip, Legend);
