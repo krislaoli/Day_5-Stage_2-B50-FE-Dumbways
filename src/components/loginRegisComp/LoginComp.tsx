@@ -41,11 +41,7 @@ export default function LoginComp() {
               placeholder="Input Password"
             />
           </div>
-          {/* <div className="items-center mb-4">
-            <div>
-              <p className="text-slate-800 hover:underline text-right" >Forgot Password?</p>
-            </div>
-          </div> */}
+
           <button
             type="submit"   
             className="w-full bg-slate-700 text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
