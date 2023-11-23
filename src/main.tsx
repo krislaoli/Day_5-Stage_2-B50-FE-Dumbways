@@ -10,6 +10,7 @@ import "./dist/CardComponent.css";
 import "./dist/DetailBlogPage.css";
 import "./dist/TextStyle.css";
 import "./dist/Footer.css";
+import "./dist/votepage.css";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

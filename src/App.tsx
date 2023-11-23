@@ -11,6 +11,7 @@ import AddPaslonPage from "./pages/AddPaslon_PartaiPage/AddPaslonPage";
 import AddPartaiPage from "./pages/AddPaslon_PartaiPage/AddPartaiPage";
 import ListPaslonPage from "./pages/ListPaslon_PartaiPage/ListPaslonPage";
 import ListPartaiPage from "./pages/ListPaslon_PartaiPage/ListPartaiPage";
+import Contoh from "./pages/Contoh";
 
 export default function App() {
   return (
@@ -24,8 +25,9 @@ export default function App() {
         <Route path="/addvotepage" element={<AddVotePage />} />
         <Route path="/addpaslonpage" element={<AddPaslonPage />} />
         <Route path="/addpartaipage" element={<AddPartaiPage />} />
-        <Route path="listpaslonpage" element={<ListPaslonPage />} />
+        <Route path="/listpaslonpage" element={<ListPaslonPage />} />
         <Route path="/listpartaipage" element={<ListPartaiPage />} />
+        <Route path="/contoh" element={<Contoh />} />
         
       // PrivateRoute Admin
       <Route element={<PrivateRouteAdmin />}>

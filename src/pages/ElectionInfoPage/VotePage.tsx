@@ -1,7 +1,9 @@
 // import VoteInfo from "../../components/ElectionInfoComp/VoteInfo";
 import NavbarComponent from "../../components/NavbarComponent";
 // // import FooterComponent from "../../components/FooterComponent";
-import { SlArrowLeft , SlArrowRight } from "react-icons/sl";
+import { Carousel } from "react-responsive-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 
 import React from "react";
 import { Pie } from "react-chartjs-2";
@@ -90,13 +92,45 @@ const VotePage: React.FC = () => {
       </div>
 
       {/* INFO PASLON */}
+      <div className="bg-zinc-300 ">
+      </div>
       <div className="bg-zinc-300">
         <h1 className="text-5xl font-bold text-center p-10">INFO PASLON</h1>
-        <div className="flex justify-center items-center gap-8 ">
-          <div className="bg-white text-4xl rounded-full p-3">
-            <SlArrowLeft  />
+        <Carousel >
+          {/* card 1 */}
+          <div className="carousel-item">
+            <div>
+              <img
+                src="public/paslon-image/paslon-1.jpg"
+                alt="Foto-Paslon"
+                className="w-96 h-96 p-4 rounded-xl object-cover"
+              />
+            </div>
+            <div className=" flex flex-col gap-7 ">
+              <div className="">
+                <p className="font-bold text-2xl">Nomor Urut: 1</p>
+                <h1 className="font-bold text-5xl">Toni Santoso</h1>
+              </div>
+              <div className="font-normal text-2xl">
+                <h2>Visi-Misi</h2>
+                <ul className="list-disc pl-10">
+                  <li>Menjadikan air menjadi biru</li>
+                  <li>Menjadikan kita sebagai hehehe</li>
+                  <li>Membuat orang selalu bisa tertawa</li>
+                </ul>
+                <br />
+                <h2>Koalisi</h2>
+                <ul className="list-disc pl-10">
+                  <li>Partai Demokrat</li>
+                  <li>Partai pemersatu bangsa</li>
+                  <li>Partai lain</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="w-[947px] h-[500px] bg-white flex justify-center items-center gap-4 mb-16 rounded-xl shadow-2xl">
+
+          {/* card 2 */}
+          <div className="carousel-item">
             <div>
               <img
                 src="public/paslon-image/paslon-1.jpg"
@@ -126,10 +160,39 @@ const VotePage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white text-4xl rounded-full p-3">
-            <SlArrowRight />
+
+          {/* card 3 */}
+          <div className="carousel-item">
+            <div>
+              <img
+                src="public/paslon-image/paslon-1.jpg"
+                alt="Foto-Paslon"
+                className="w-96 h-96 p-4 rounded-xl object-cover"
+              />
+            </div>
+            <div className="flex flex-col gap-7">
+              <div className="">
+                <p className="font-bold text-2xl">Nomor Urut: 1</p>
+                <h1 className="font-bold text-5xl">Toni Santoso</h1>
+              </div>
+              <div className="font-normal text-2xl">
+                <h2>Visi-Misi</h2>
+                <ul className="list-disc pl-10">
+                  <li>Menjadikan air menjadi biru</li>
+                  <li>Menjadikan kita sebagai hehehe</li>
+                  <li>Membuat orang selalu bisa tertawa</li>
+                </ul>
+                <br />
+                <h2>Koalisi</h2>
+                <ul className="list-disc pl-10">
+                  <li>Partai Demokrat</li>
+                  <li>Partai pemersatu bangsa</li>
+                  <li>Partai lain</li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
+        </Carousel>
       </div>
     </div>
   );
