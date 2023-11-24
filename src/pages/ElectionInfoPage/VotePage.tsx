@@ -13,7 +13,7 @@ const VotePage: React.FC = () => {
   ChartJS.register(ArcElement, Tooltip, Legend);
 
   const data = {
-    labels: ["Toni Santoso", "Minion", "Toys"],
+    labels: ["Tiger", "Crocodile", "Osprey"],
     datasets: [
       {
         data: [12, 9, 50],
@@ -25,7 +25,7 @@ const VotePage: React.FC = () => {
   };
 
   return (
-    <div className="h-screen bg-[#9BA4B5]">
+    <div className="bg-[#9BA4B5] h-screen">
       <NavbarComponent />
       <h1 className="font-bold text-5xl text-center text-black mt-10">
         INFO PEMILU TERUPDATE
@@ -46,7 +46,7 @@ const VotePage: React.FC = () => {
               </p>
             </div>
             <div className="mt-4 font-bold text-4xl text-black ml-4 text-center">
-              <p className="text-start">Toys</p>
+              <p className="text-start">Osprey</p>
               <p className="text-start text-3xl">50%</p>
             </div>
           </div>
@@ -60,7 +60,7 @@ const VotePage: React.FC = () => {
               </p>
             </div>
             <div className="mt-4 font-bold text-4xl text-black ml-4 text-center">
-              <p className="text-start">Toni Sentosa</p>
+              <p className="text-start">Tiger</p>
               <p className="text-start text-3xl">12%</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const VotePage: React.FC = () => {
               </p>
             </div>
             <div className="mt-4 font-bold text-4xl text-black ml-4 text-center">
-              <p className="text-start">Minion</p>
+              <p className="text-start">Crocodile</p>
               <p className="text-start text-3xl">9%</p>
             </div>
           </div>
@@ -92,11 +92,10 @@ const VotePage: React.FC = () => {
       </div>
 
       {/* INFO PASLON */}
-      <div className="bg-zinc-300 ">
-      </div>
+      <div className="bg-zinc-300 "></div>
       <div className="bg-zinc-300">
         <h1 className="text-5xl font-bold text-center p-10">INFO PASLON</h1>
-        <Carousel >
+        <Carousel>
           {/* card 1 */}
           <div className="carousel-item">
             <div>
@@ -109,20 +108,20 @@ const VotePage: React.FC = () => {
             <div className=" flex flex-col gap-7 ">
               <div className="">
                 <p className="font-bold text-2xl">Nomor Urut: 1</p>
-                <h1 className="font-bold text-5xl">Toni Santoso</h1>
+                <h1 className="font-bold text-5xl">Tiger</h1>
               </div>
               <div className="font-normal text-2xl">
                 <h2>Visi-Misi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Menjadikan air menjadi biru</li>
-                  <li>Menjadikan kita sebagai hehehe</li>
-                  <li>Membuat orang selalu bisa tertawa</li>
+                  <li>Membuat Hutan menjadi menakutkan</li>
+                  <li>Membuat Manusia berlari cepat saat saya  kejar</li>
+                  <li>Membuat orang selalu bisa waspada</li>
                 </ul>
                 <br />
                 <h2>Koalisi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Partai Demokrat</li>
-                  <li>Partai pemersatu bangsa</li>
+                  <li>Partai Pemakan Apa aja</li>
+                  <li>Partai Satu darah</li>
                   <li>Partai lain</li>
                 </ul>
               </div>
@@ -133,28 +132,28 @@ const VotePage: React.FC = () => {
           <div className="carousel-item">
             <div>
               <img
-                src="public/paslon-image/paslon-1.jpg"
+                src="public/paslon-image/paslon-2.jpg"
                 alt="Foto-Paslon"
                 className="w-96 h-96 p-4 rounded-xl object-cover"
               />
             </div>
             <div className="flex flex-col gap-7">
               <div className="">
-                <p className="font-bold text-2xl">Nomor Urut: 1</p>
-                <h1 className="font-bold text-5xl">Toni Santoso</h1>
+                <p className="font-bold text-2xl">Nomor Urut: 2</p>
+                <h1 className="font-bold text-5xl">Crocodile</h1>
               </div>
               <div className="font-normal text-2xl">
                 <h2>Visi-Misi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Menjadikan air menjadi biru</li>
-                  <li>Menjadikan kita sebagai hehehe</li>
-                  <li>Membuat orang selalu bisa tertawa</li>
+                  <li>Menjadikan air menjadi hijau</li>
+                  <li>Menjadikan pemancing menjadi waspada</li>
+                  <li>Dapat menggoda siapapun</li>
                 </ul>
                 <br />
                 <h2>Koalisi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Partai Demokrat</li>
-                  <li>Partai pemersatu bangsa</li>
+                  <li>Partai Pemersatu Bangsa</li>
+                  <li>Partai Menjadi Manusia</li>
                   <li>Partai lain</li>
                 </ul>
               </div>
@@ -165,28 +164,28 @@ const VotePage: React.FC = () => {
           <div className="carousel-item">
             <div>
               <img
-                src="public/paslon-image/paslon-1.jpg"
+                src="public/paslon-image/paslon-3.jpg"
                 alt="Foto-Paslon"
                 className="w-96 h-96 p-4 rounded-xl object-cover"
               />
             </div>
             <div className="flex flex-col gap-7">
               <div className="">
-                <p className="font-bold text-2xl">Nomor Urut: 1</p>
-                <h1 className="font-bold text-5xl">Toni Santoso</h1>
+                <p className="font-bold text-2xl">Nomor Urut: 3</p>
+                <h1 className="font-bold text-5xl">Osprey</h1>
               </div>
               <div className="font-normal text-2xl">
                 <h2>Visi-Misi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Menjadikan air menjadi biru</li>
-                  <li>Menjadikan kita sebagai hehehe</li>
-                  <li>Membuat orang selalu bisa tertawa</li>
+                  <li>Menjadikan Langit Untuk Bermangsa</li>
+                  <li>Hidup diatas langit</li>
+                  <li>Membuat langit menjadi indah</li>
                 </ul>
                 <br />
                 <h2>Koalisi</h2>
                 <ul className="list-disc pl-10">
-                  <li>Partai Demokrat</li>
-                  <li>Partai pemersatu bangsa</li>
+                  <li>Partai langit</li>
+                  <li>Partai udara</li>
                   <li>Partai lain</li>
                 </ul>
               </div>

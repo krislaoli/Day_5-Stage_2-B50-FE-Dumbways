@@ -43,44 +43,44 @@ export default function AddVoteComp() {
       </div>
       <div className="flex flex-col items-center mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+          <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
             1
           </div>
-          <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+          <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
             2
           </div>
-          <div className="text-center font-bold bg-[#FF6C22] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+          <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
             3
           </div>
 
           <Card
             image="public/paslon-image/paslon-1.jpg"
-            name="Toni Santoso"
+            name="Tiger"
             backgroundColor="bg-[#023c40]"
-            desc="Menjadikan air menjadi biru"
-            title="- Partai Demokrat"
+            desc="Membuat Hutan menjadi menakutkan"
+            title="- Partai Pemakan Apa aja"
           />
           <Card
             image="public/paslon-image/paslon-2.jpg"
-            name="Minion"
+            name="Crocodile"
             backgroundColor="bg-[#023c40]"
-            desc="Menjadikan air menjadi biru"
-            title="- Partai Demokrat"
+            desc="Menjadikan air menjadi hijau"
+            title="- Partai Pemersatu Bangsa"
           />
           <Card
             image="public/paslon-image/paslon-3.jpg"
-            name="Toys"
+            name="Osprey"
             backgroundColor="bg-[#023c40]"
-            desc="Menjadikan air menjadi biru"
-            title="- Partai Demokrat"
+            desc="Menjadikan Langit Untuk Bermangsa"
+            title="- Partai Langit"
           />
         </div>
         <div className="flex flex-col md:flex-row mt-11">
           <div className="mb-4 md:mb-0 md:mr-4">
             <button
               type="submit"
-              className="w-full bg-slate-700 text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
-              style={{ background: "rgba(94, 90, 0, 1)" }}
+              className="w-full bg-[#435585] text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
+              
             >
               Reset
             </button>
@@ -88,8 +88,8 @@ export default function AddVoteComp() {
           <div>
             <button
               type="submit"
-              className="w-full bg-slate-700 text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
-              style={{ background: "rgba(94, 90, 0, 1)" }}
+              className="w-full bg-[#435585] text-white font-bold py-2 px-4 rounded-md hover:bg-slate-900"
+              
             >
               <Link to="/votepage"> Submit</Link>
             </button>

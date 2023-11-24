@@ -33,13 +33,13 @@ export default function DashboardComponent() {
       <div>
         <div className="flex justify-center mt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               1
             </div>
-            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               2
             </div>
-            <div className="text-center font-bold bg-[#FF6C22] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               3
             </div>
 

@@ -1,6 +1,6 @@
 export default function AddPartaiComp() {
   return (
-    <div className="bg-[#9BA4B5] h-screen">
+    <div>
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-bold mt-10 pb-10 text-4xl text-center text-black">
           Add Partai

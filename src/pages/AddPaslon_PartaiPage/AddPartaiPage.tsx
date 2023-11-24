@@ -3,9 +3,9 @@ import NavbarComponent from "../../components/NavbarComponent";
 
 export default function AddPartaiPage() {
   return (
-    <div>
-        <NavbarComponent />
-        <AddPartaiComp />
+    <div className="bg-[#9BA4B5] h-screen">
+      <NavbarComponent />
+      <AddPartaiComp />
     </div>
-  )
+  );
 }

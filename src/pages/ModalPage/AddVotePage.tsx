@@ -4,7 +4,7 @@ import NavbarComponent from "../../components/NavbarComponent";
 
 export default function AddVotePage() {
   return (
-    <div className="bg-[#9BA4B5] min-h-screen">
+    <div  className="bg-[#9BA4B5] h-screen">
       <NavbarComponent />
       <AddVoteComp />
       {/* <FooterComponent /> */}
