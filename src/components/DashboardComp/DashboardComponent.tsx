@@ -8,16 +8,16 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, name, akumulasi, jumlahVotes }) => {
   return (
-    <div className="bg-[#ED7D31] p-4 rounded-md shadow-md w-96 h-96">
+    <div className="bg-[#023c40] p-4 rounded-md shadow-md w-96 h-96">
       <img
         src={image}
         alt={name}
         className="w-full h-60 object-cover mb-4 rounded-md"
       />
 
-      <h2 className=" text-3xl font-semibold text-black">{name}</h2>
-      <p className="text-black">Akumulasi: {akumulasi}</p>
-      <p className="text-black">Jumlah Votes: {jumlahVotes}</p>
+      <h2 className=" text-3xl font-semibold text-white">{name}</h2>
+      <p className="text-white">Akumulasi: {akumulasi}</p>
+      <p className="text-white">Jumlah Votes: {jumlahVotes}</p>
     </div>
   );
 };
@@ -33,31 +33,31 @@ export default function DashboardComponent() {
       <div>
         <div className="flex justify-center mt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               1
             </div>
-            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               2
             </div>
-            <div className="text-center font-bold bg-[#435585] text-black mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
+            <div className="text-center font-bold bg-[#435585] text-white mx-[170px] rounded-full w-[40px] h-[40px] flex items-center justify-center">
               3
             </div>
 
             <Card
               image="public/paslon-image/paslon-1.jpg"
-              name="Toni Santoso"
+              name="Tiger"
               akumulasi="45%"
               jumlahVotes="1.000"
             />
             <Card
               image="public/paslon-image/paslon-2.jpg"
-              name="Minion"
+              name="Crocodile"
               akumulasi="75%"
               jumlahVotes="4.000"
             />
             <Card
               image="public/paslon-image/paslon-3.jpg"
-              name="Toys"
+              name="Osprey"
               akumulasi="10%"
               jumlahVotes="800"
             />
@@ -74,7 +74,7 @@ export default function DashboardComponent() {
         {/* Table */}
         <div className="flex justify-center">
           <table className="w-3/5">
-            <thead className="bg-[#B0926A] text-white">
+            <thead className="bg-[#FF5B22] text-white">
               <tr className="text-black">
                 <th className="py-1 px-4 border border-t-2 border-black">No</th>
                 <th className="py-2 px-4 border border-t-2 border-black">
